@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.pokemon-info {
+    display: flex;
+    align-items: center;
+}
+
+.pokemon-image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.pokemon-image img {
+    max-width: 200px;
+    border: 4px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-details {
+    flex: 1 1 auto;
+}
+
+.pokemon-details h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.pokemon-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.pokemon-details strong {
+    font-weight: bold;
+    color: #333;
+}
